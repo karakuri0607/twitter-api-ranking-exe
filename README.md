@@ -24,5 +24,5 @@ Seleniumでスクレイピングする際に使用しています。<br>
 * 「CHROME_DRIVER」に「chromedriver.exe」のパスを指定します。<br>
 * 「API_TWEET_COUNTS_URL」はツイート集計を行うためのクエリです。<br>
 * 「BEARER_TOKEN」はTwitter APIを使用するために必要なトークンです。<br>
-　　指定しない場合はシステム標準のトークンを使用します。<br>
+ 指定しない場合はシステム標準のトークンを使用します。<br>
 
