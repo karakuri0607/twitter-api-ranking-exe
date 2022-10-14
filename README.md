@@ -1,28 +1,28 @@
-# �T�v
-CSV��X�N���C�s���O����擾�����ꗗ��ΏۂɃc�C�[�g���̑������ɕ��ёւ����o�͂��܂��B<br>
+# 概要
+CSVやスクレイピングから取得した一覧を対象にツイート数の多い順に並び替えし出力します。<br>
 
-# ����菇
-* �u�c�C�[�g�W�v.exe�v���_�u���N���b�N���ăA�v�����N�����Ă��������B<br>
-* �u���������v�A�u�������@�v�A�u�o�͌`���v��ݒ肵�Ă��������B<br>
-* �u�o�́v�{�^�����N���b�N���W�v���J�n���܂��B<br>
+# 操作手順
+* 「ツイート集計.exe」をダブルクリックしてアプリを起動してください。<br>
+* 「検索条件」、「検索方法」、「出力形式」を設定してください。<br>
+* 「出力」ボタンをクリックし集計を開始します。<br>
 
-# �e�t�@�C���̐���
+# 各ファイルの説明
 
-## �c�C�[�g�W�v.exe
-�c�C�[�g�W�v���s�����߂̎��s�t�@�C���ł��B<br>
+## ツイート集計.exe
+ツイート集計を行うための実行ファイルです。<br>
 
-## sample�t�H���_
-�T���v���Ŏg�p����ړI�Őݒu���Ă���܂��B<br>
-�������@��ݒ肷��ۂɁuread.csv�v��I�����܂��B<br>
+## sampleフォルダ
+サンプルで使用する目的で設置してあります。<br>
+検索方法を設定する際に「read.csv」を選択します。<br>
 
 ## chromedriver.exe
-Selenium�ŃX�N���C�s���O����ۂɎg�p���Ă��܂��B<br>
+Seleniumでスクレイピングする際に使用しています。<br>
 
 ## config.ini
-�ݒ�t�@�C���ł��B
-���ɕύX����K�v�͂���܂���B
-* �uCHROME_DRIVER�v�Ɂuchromedriver.exe�v�̃p�X���w�肵�܂��B<br>
-* �uAPI_TWEET_COUNTS_URL�v�̓c�C�[�g�W�v���s�����߂̃N�G���ł��B<br>
-* �uBEARER_TOKEN�v��Twitter API���g�p���邽�߂ɕK�v�ȃg�[�N���ł��B<br>
-* �w�肵�Ȃ��ꍇ�̓V�X�e���W���̃g�[�N�����g�p���܂��B<br>
+設定ファイルです。
+特に変更する必要はありません。
+* 「CHROME_DRIVER」に「chromedriver.exe」のパスを指定します。<br>
+* 「API_TWEET_COUNTS_URL」はツイート集計を行うためのクエリです。<br>
+* 「BEARER_TOKEN」はTwitter APIを使用するために必要なトークンです。<br>
+　　指定しない場合はシステム標準のトークンを使用します。<br>
 
