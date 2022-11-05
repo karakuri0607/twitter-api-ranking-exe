@@ -1,7 +1,14 @@
 # 概要
 CSVやスクレイピングから取得した一覧を対象にツイート数の多い順に並び替えし出力します。<br>
-
+<br>
+CSVによる集計<br>
 ![twitter-api-ranking](https://user-images.githubusercontent.com/10617518/200097525-28dc2fd2-4147-4c04-a0e8-b8a3c07a7fd2.gif)
+<br>
+<br>
+スクレピングよる集計<br>
+![twitter-api-ranking_2](https://user-images.githubusercontent.com/10617518/200098133-6f85fa88-f56e-445d-a2ff-cd9922d8d153.gif)
+<br>
+<br>
 
 # 操作手順
 * 「ツイート集計.exe」をダブルクリックしてアプリを起動してください。<br>
